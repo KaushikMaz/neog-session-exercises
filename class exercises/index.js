@@ -11,3 +11,8 @@ console.log(shruti)
 const colors=["pink","blue","grey","black","yellow"];
 const newColors=[...colors,"red","green"];
 console.log(newColors)
+
+// Write a function Birthday() to take a person's name and age in an object
+// and increase age
+ const Birthday=(person)=>({...person,age:person.age+1})
+ console.log(Birthday(obj))
